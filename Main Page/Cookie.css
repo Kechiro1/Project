@@ -1,0 +1,137 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header{
+    margin:-5px -8px 0px -8px;
+    padding: 88px 40px 28px 40px;
+    background-color: rgb(255, 255, 255);
+    
+}
+.logonav{
+    margin:-83px 0px 0 50px;
+    padding:0 0 0 0 ;
+    float: left;
+}
+.logonav li{
+    display: inline;
+    margin: 0 15px 0 0;
+    padding: 0 0 0 0;
+    font-weight: bold;    
+}
+.logonav li a{
+  text-decoration: none;
+  color: #747474;
+  padding: 35px 1px;
+}
+.btn{
+    font-size: 18px;
+    padding: 43px 20px;
+    border: none;
+    background-color: #00000000;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  
+.btn ::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #000000;
+    transition: width 0.3s ease, transition 0.3s ease;
+  }
+  
+ .btn :hover ::before{
+    width: 100%;
+  }
+  
+ .btn :hover {
+    color: #000000;
+    background-color: #50505000;
+  }
+.image{
+    margin: 1px 0px -30px 0;
+    padding: 1px;
+}
+.signin {
+    margin:-43px 100px 0 10px ;
+    padding:0 0 0 0 ;
+}
+.signin li{
+    display: inline;
+}
+.location {
+  margin:-43px 50px 0 10px ;
+  padding:0 0 0 0 ;
+}
+.location li{
+  display: inline;
+}
+
+h1 {
+    color: #ff0000;
+    text-align: center;
+}
+
+h2 {
+    color: #ff0000;
+}
+
+p, li {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style: disc inside;
+}
+
+a {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+}
+
+td {
+    background-color: #222;
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    table, th, td {
+        font-size: 12px;
+    }
+}
